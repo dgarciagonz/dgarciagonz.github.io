@@ -20,6 +20,19 @@
     overflow: hidden;
 }
 
+#navbarr {
+    background-color: #121212;
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 999;
+}
+
+section {
+    scroll-margin-top: 60px; /* Ajusta este valor según la altura del navbar */
+}
+
 #toggle-language {
     position: fixed;
     bottom: 20px;
