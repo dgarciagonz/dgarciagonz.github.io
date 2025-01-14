@@ -1,0 +1,28 @@
+.bg-color-main{
+    background-color: #121212;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+#welcome-banner {
+    height: 50px; /* Ajusta esta altura según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#toggle-language {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}

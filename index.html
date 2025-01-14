@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dgarcgiagonz's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/31378c80e2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<div class="divide-y divide-[#69FFF2]/25">
+
+  <body class="bg-color-main text-2xl font-mono container md:mx-auto md:w-1/2">
+    <header class=" text-white p-6">
+      <nav>
+        <ul class="flex space-x-4 place-content-center">
+          <li><a href="#about" class="text-gray-400	 ease-in duration-100 hover:text-[#69FFF2]">About me</a>
+          </li>
+          <li><a href="#projects" class="text-gray-400	 ease-in duration-100 hover:text-[#69FFF2]">Projects</a></li>
+          <li><a href="#contact" class="text-gray-400	 ease-in duration-100 hover:text-[#69FFF2]">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="welcome-banner" class="text-center text-[#69FFF2] text-5xl font-bold mb-4">Welcome</div>
+      <p class="mt-2 text-center">David García's portfolio</p>
+      <button id="toggle-language" class="mt-4 p-2  text-white rounded">ENG / ESP</button>
+    </header>
+
+
+    <main class="p-6 ">
+      <section id="about" class="mb-8 text-white text-lg">
+        <h2 class="text-3xl font-semibold text-[#69FFF2]">About Me</h2>
+        <p class="mt-2 " id="about-text-1">I consider my speciality to be backend development, where the technologies I
+          master are
+          java, Spring, PHP and Laravel. Although I have also used JavaScript and Vue.JS for the frotend
+          sections in certain projects.</p>
+        <p class="mt-2" id="about-text-2">I am a person with great initiative to learn and experience new thing. I have
+          a strong
+          ability to analyze complex problems and find optimal solutions. Additionally, I pay close attention
+          to details, making sure everything works correcty to provide a great user experience.</p>
+      </section>
+      <section id="projects" class="mb-8 mt-4 text-white text-lg">
+        <h2 class="text-3xl font-semibold text-[#69FFF2]">My Projects</h2>
+        <p class="mt-2 " id="projects-text">Here are some of the projects I've worked on.</p>
+        <h4 class="text-2xl mt-2 font-semibold text-[#69FFF2]">Horoskope</h4>
+        <p class="mt-2" id="horoskope-text-1">Horoskope's project consists of a social network, where users can follow
+          others, have
+          followers, and access a main page to view the posts of those they follow, with the
+          theme of astrology and tarot.</p>
+        <p class="mt-2" id="horoskope-text-2">
+          In addition to the basic functions of a social network, such as interacting with other
+          users, this app offers the possibility to consult daily horoscopes, as well as
+          comparing compatibility between users individually and in groups.
+          It also allows three types of card draws: yes or no questions, consultations about
+          money, love, or health, and offers the option to book appointments with a psychic
+          for personal readings.</p>
+
+
+        <div id="carouselExampleAutoplaying" class="carousel slide mt-2 mb-2" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/horoskope1.PNG" class="d-block w-100" alt="Horoskope Landing Page">
+            </div>
+            <div class="carousel-item">
+              <img src="img/horoskope2.PNG" class="d-block w-100" alt="Horoskope Login">
+            </div>
+            <div class="carousel-item">
+              <img src="img/horoskope5.PNG" class="d-block w-100" alt="Horoskope Home">
+            </div>
+            <div class="carousel-item">
+              <img src="img/horoskope3.PNG" class="d-block w-100" alt="Horoskope Tarot">
+            </div>
+            <div class="carousel-item">
+              <img src="img/horoskope4.PNG" class="d-block w-100" alt="Horoskope Collection">
+            </div>
+            <div class="carousel-item">
+              <img src="img/horoskope6.PNG" class="d-block w-100" alt="Horoskope Profile">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <p class="mt-2" id="horoskope-text-3">
+          The main objective is to carry out a complete integration of the horoscope, tarot and
+          social media to provide users with a place where they can connect
+          with others who share those interests. With the intention of
+          create an online community where users can share their
+          experiences, knowledge and opinions on these topics, generating a
+          environment of exchange and mutual learning.
+        </p>
+
+        <p class="mt-2" id="horoskope-text-4">
+          Horoskope is built with Laravel, PHP, MariaDB, JavaScript, and Bootstrap.
+        </p>
+
+      </section>
+      <section id="contact" class="place-content-center mb-8 mt-4 text-white text-lg">
+        <h2 class=" text-3xl font-semibold text-[#69FFF2]">Contact Me</h2>
+        <p class="mt-2" id="contact-text">Feel free to reach out!</p>
+        <div class="row d-flex justify-content-center flex-row justify-content-around">
+          <button class="col-12 m-1 p-4 border-2 border-[#69FFF2] text-sm text-white rounded"><a href="https://github.com/dgarciagonz"><i class="text-base fa-brands fa-github" ></i> dgarcgiagonz</a></button>
+          <button class="col-12 m-1 p-4 border-2 border-[#69FFF2] text-sm text-white rounded"><a href="https://www.linkedin.com/in/david-garc%C3%ADa-gonz%C3%A1lez-943220258/"><i class="text-base fa-brands fa-linkedin" ></i> David García González</a></button>
+          <button class="col-12 m-1 p-4 border-2 border-[#69FFF2] text-sm text-white rounded text-center"><a href="mailto:dgarciagonz2911@gmail.com"><i class="text-base fa-solid fa-envelope"></i> dgarciagonz2911@gmail.com</button>
+        </div>
+
+      </section>
+    </main>
+    <footer class=" text-white p-4 text-center text-base">
+      <p>&copy; 2025 Portfolio created by David García</p>
+    </footer>
+    <script src="scripts.js"></script>
+</div>
+</body>
+
+</html>
