@@ -41,7 +41,7 @@ const about1Text = {
 
 const about2Text = {
     en: "I am a person with great initiative to learn and experience new thing. I have a strong ability to analyze complex problems and find optimal solutions. Additionally, I pay close attention to details, making sure everything works correcty to provide a great user experience.",
-    es: "Soy una persona con gran iniciativa para aprender y experimentar cosas nuevas. Tengo una sólida capacidad para analizar problemas complejosy hallar soluciones óptimas. Además, presto especial atención a los detalles, asegurándome de que todo funcione correctamente para proporcionar una excelente experiencia al usuario."
+    es: "Soy una persona con gran iniciativa para aprender y experimentar cosas nuevas. Tengo una sólida capacidad para analizar problemas complejos y hallar soluciones óptimas. Además, presto especial atención a los detalles, asegurándome de que todo funcione correctamente para proporcionar una excelente experiencia al usuario."
 };
 
 const projectsText = {
@@ -68,6 +68,26 @@ const horoskope4Text = {
     es:"Horoskope se ha creado usando Laravel, PHP, MariaDB, JavaScript y Bootstrap"
 };
 
+const ayuda1Text = {
+    en:"Aid to municipalities",
+    es:"Ayuda a municipios"
+};
+
+const ayuda2Text = {
+    en:"This project consists of a web application designed for municipal administrators to manage aid requests through functionalities of creation, consultation, updating, and deletion (CRUD). These requests address various needs, such as street cleaning, food and water supply, or repair of essential infrastructures. The main purpose is to ensure a fair and efficient distribution of available resources, promoting the recovery of the most affected areas.",
+    es:"Este proyecto consiste en una aplicación web diseñada para que los administradores municipales puedan gestionar solicitudes de ayuda mediante funcionalidades de creación, consulta, actualización y eliminación (CRUD). Estas solicitudes abordan diversas necesidades, como la limpieza de calles, el suministro de alimentos y agua, o la reparación de infraestructuras esenciales. La finalidad principal es asegurar una distribución justa y eficiente de los recursos disponibles, promoviendo la recuperación de las zonas más afectadas."
+};
+
+const ayuda3Text = {
+    en:"Main features: <br> • Management of requests, municipalities, provinces, and users. <br> • User authentication and authorization. <br> • Prioritization of requests according to priority value. <br> • History of completed requests. <br> • CRUD enabled in requests, municipalities, and provinces. <br> • Application of filters to show the corresponding elements. <br> • Administrator and user roles to manage content. <br> • REST API with Spring Boot and persistence with JPA.",
+    es:"Características principales: <br> • Administración de solicitudes, municipios, provincias y usuarios. <br>• Autenticación y autorización de usuarios. <br>• Jerarquización de prioridades según valor de prioridad. <br>• Historial de solicitudes completadas. <br>• CRUD habilitado en solicitudes, municipios y provincias. <br> • Aplicación de filtros para mostrar los elementos correspondientes. <br>• Roles de administrador y usuario para gestionar contenido. <br>• API REST con  Spring Boot y persistencia con JPA."
+};
+
+const ayuda4Text = {
+    en:"Aid to municipalities is built with Java, Spring Boot, JPA, MariaDB, JavaScript, and Bootstrap.",
+    es:"Ayuda a municipios está construido con Java, Spring Boot, JPA, MariaDB, JavaScript, y Bootstrap.",
+};
+
 const contactText = {
     en:"Feel free to reach out!",
     es:"¡No dudes en ponerte en contacto!"
@@ -85,6 +105,10 @@ document.getElementById('toggle-language').addEventListener('click', function ()
     document.getElementById('horoskope-text-2').textContent = horoskope2Text[currentLanguage];
     document.getElementById('horoskope-text-3').textContent = horoskope3Text[currentLanguage];
     document.getElementById('horoskope-text-4').textContent = horoskope4Text[currentLanguage];
+    document.getElementById('ayuda-text-1').textContent = ayuda1Text[currentLanguage];
+    document.getElementById('ayuda-text-2').textContent = ayuda2Text[currentLanguage];
+    document.getElementById('ayuda-text-3').innerHTML = ayuda3Text[currentLanguage];
+    document.getElementById('ayuda-text-4').textContent = ayuda4Text[currentLanguage];
     document.getElementById('contact-text').textContent = contactText[currentLanguage];
 
 });
